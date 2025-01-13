@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Example Stock [REEE}"
 date:   2025-01-12 19:05:52 -0500
 categories: jekyll update
 ---
