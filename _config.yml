@@ -39,10 +39,10 @@ defaults:
       path: "assets/figures"
     values:
       image: true
-  # - scope:
-  #     path: "_posts"
-  #   values:
-  #     layout: post
+  - scope:
+      path: "_posts"
+    values:
+      permalink: :title
 
 
 
