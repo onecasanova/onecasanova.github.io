@@ -35,7 +35,7 @@ plugins:
 
 defaults:
   - scope:
-      path: "/figures"
+      path: "assets/figures"
     values:
       image: true
 
