@@ -8,8 +8,26 @@ categories: update
 
 Here I want to try an upload an image. If it gets here then I've done it successfully.
 
+These are tables: 
+
+| Month | Savings |
+| :-: | ------ |
+| January | $250 |
+| February | $80 |
+| March | $420 |
+
+| Item              | In Stock | Price |
+| :---------------- | :------: | ----: |
+| Python Hat        |   True   | 23.99 |
+| SQL Hat           |   True   | 23.99 |
+| Codecademy Tee    |  False   | 19.99 |
+| Codecademy Hoodie |  False   | 42.99 |
+
 
 ![Image]({{ site.baseurl }}/assets/figures/sma.png)
+![Image]({{ site.baseurl }}/assets/figures/rsi.png)
+![Image]({{ site.baseurl }}/assets/figures/macd.png)
+![Image]({{ site.baseurl }}/assets/figures/angle.png)
 
 
 
