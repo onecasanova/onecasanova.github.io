@@ -8,3 +8,4 @@ categories: update
 
 Here I want to try an upload an image. If it gets here then I've done it successfully.
 
+![Image](/angle.png)
