@@ -8,4 +8,9 @@ categories: update
 
 Here I want to try an upload an image. If it gets here then I've done it successfully.
 
-![Image](/angle.png)
+
+![Image]({{ site.baseurl }}/assets/figures/angle.png)
+
+
+
+Lets gooooo!
