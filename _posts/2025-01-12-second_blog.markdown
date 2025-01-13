@@ -2,7 +2,8 @@
 layout: post
 title:  "Second Blog"
 date:   2025-01-12 20:12:52 -0500
-categories: update
+categories: new_post
+permalink: :title
 ---
 
 
