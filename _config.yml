@@ -44,6 +44,7 @@ defaults:
     values:
       permalink: :title
 
+# this is a folder where you can store data to be called on with variables using Liquid language
 collections:
   - stock_data
   - cars

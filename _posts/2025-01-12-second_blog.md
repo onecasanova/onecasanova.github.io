@@ -26,12 +26,6 @@ These are tables:
 
 First car is a {{site.cars[0].type}} from {{site.cars[0].year}}. Second car is a {{site.cars[1].type}} from {{site.cars[1].year}}.
 
-<!-- ![Image]({{ site.baseurl }}/assets/figures/sma.png)
-![Image]({{ site.baseurl }}/assets/figures/rsi.png)
-![Image]({{ site.baseurl }}/assets/figures/macd.png)
-![Image]({{ site.baseurl }}/assets/figures/angle.png) -->
-
-
 
 Lets gooooo!
 
