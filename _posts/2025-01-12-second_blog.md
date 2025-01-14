@@ -6,8 +6,7 @@ categories: new_post
 ---
 
 
-
-These are tables: 
+These are tables, might use both: 
 
 | Month | Savings |
 | :-: | ------ |
