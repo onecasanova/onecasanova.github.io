@@ -44,6 +44,13 @@ defaults:
     values:
       permalink: :title
 
+collections:
+  - stock_data
+  - cars
+
+# include:
+#   - _fruit
+#   - _cars
 
 
 # Exclude from processing.

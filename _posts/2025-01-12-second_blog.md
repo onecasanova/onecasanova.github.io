@@ -14,18 +14,22 @@ These are tables:
 | February | $80 |
 | March | $420 |
 
-| Item              | In Stock | Price |
-| :---------------- | :------: | ----: |
-| Python Hat        |   True   | 23.99 |
-| SQL Hat           |   True   | 23.99 |
-| Codecademy Tee    |  False   | 19.99 |
-| Codecademy Hoodie |  False   | 42.99 |
+| Company              | Closing price (USD) | Volume (M) |
+| :---------------- | :------: | :----: |
+| {{site.stock_data[0].company_name}} ({{site.stock_data[0].ticker}}) |   {{site.stock_data[0].close_p}}   | {{site.stock_data[0].close_v}} |
+| {{site.stock_data[1].company_name}} ({{site.stock_data[1].ticker}}) |   {{site.stock_data[1].close_p}}   | {{site.stock_data[1].close_v}} |
+| {{site.stock_data[2].company_name}} ({{site.stock_data[2].ticker}}) |   {{site.stock_data[2].close_p}}   | {{site.stock_data[2].close_v}} |
+| {{site.stock_data[3].company_name}} ({{site.stock_data[3].ticker}}) |   {{site.stock_data[3].close_p}}   | {{site.stock_data[3].close_v}} |
+| {{site.stock_data[4].company_name}} ({{site.stock_data[4].ticker}}) |   {{site.stock_data[4].close_p}}   | {{site.stock_data[4].close_v}} |
 
+## Cars
 
-![Image]({{ site.baseurl }}/assets/figures/sma.png)
+First car is a {{site.cars[0].type}} from {{site.cars[0].year}}. Second car is a {{site.cars[1].type}} from {{site.cars[1].year}}.
+
+<!-- ![Image]({{ site.baseurl }}/assets/figures/sma.png)
 ![Image]({{ site.baseurl }}/assets/figures/rsi.png)
 ![Image]({{ site.baseurl }}/assets/figures/macd.png)
-![Image]({{ site.baseurl }}/assets/figures/angle.png)
+![Image]({{ site.baseurl }}/assets/figures/angle.png) -->
 
 
 
