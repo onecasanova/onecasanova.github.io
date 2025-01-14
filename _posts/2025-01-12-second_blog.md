@@ -6,7 +6,6 @@ categories: new_post
 ---
 
 
-Here I want to try an upload an image. If it gets here then I've done it successfully.
 
 These are tables: 
 
