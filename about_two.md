@@ -4,7 +4,7 @@ title: About page 2
 permalink: /about_two/
 ---
 
- *Write short bio 2 about myself* *
+ *This is just to see how to make another page* *
 
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
