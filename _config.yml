@@ -43,10 +43,7 @@ defaults:
       path: "_posts"
     values:
       permalink: stock_holdings/:title
-  - scope:
-      path: "posts2"
-    values:
-      permalink: posts2/:title
+
 
 # this is a folder where you can store data to be called on with variables using Liquid language
 collections:
