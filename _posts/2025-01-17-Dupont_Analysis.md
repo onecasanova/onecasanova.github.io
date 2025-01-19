@@ -6,26 +6,33 @@ permalink: dupont
 ---
 
 ### Dupont Analysis
-Description of Dupont Analysis and what it is and how it's useful, right here.
+This method analyzes a company's profitability by breaking down a company's return on equity (ROE) into its component parts, namely: 
+* How efficiently it generates profit from sales (profit margin)
+* How it utilizes its assets (total asset turnover) 
+* How it leverages debt (equity multiplier).
+
+With this method one can get the fuller picture of a company's overall financial health and performance, on a quarterly basis.
+
+Dupont Analysis says: ROE = Profit Margin x Total Asset Turnover x Equity Multiplier
 
 
 
 # Guardiant Health
-Here
+
 ![Image]({{ site.baseurl }}/assets/figures/Tables/GH_dupont.png)
 
 # Sensionics
-Here
+
 ![Image]({{ site.baseurl }}/assets/figures/Tables/SENS_dupont.png)
 
 # Vertex Pharma
-Here
+
 ![Image]({{ site.baseurl }}/assets/figures/Tables/VRTX_dupont.png)
 
 # Lyft
-Here
+
 ![Image]({{ site.baseurl }}/assets/figures/Tables/LYFT_dupont.png)
 
 # Kratos
-Here
+
 ![Image]({{ site.baseurl }}/assets/figures/Tables/KTOS_dupont.png)
