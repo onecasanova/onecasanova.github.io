@@ -11,9 +11,10 @@ This method analyzes a company's profitability by breaking down a company's retu
 * How it utilizes its assets (total asset turnover) 
 * How it leverages debt (equity multiplier).
 
-With this method one can get the fuller picture of a company's overall financial health and performance, on a quarterly basis.
-
 Dupont Analysis says: ROE = Profit Margin x Total Asset Turnover x Equity Multiplier
+
+With this method one can get the fuller picture of a company's overall financial health and performance, on a quarterly basis. Additional metrics were added for more breadth on the company like ROA and Debt-to-Asset ratios.
+
 
 
 
