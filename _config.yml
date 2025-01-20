@@ -39,6 +39,7 @@ instagram_username: cass.nova
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 defaults:
   - scope:
