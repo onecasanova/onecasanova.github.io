@@ -18,10 +18,6 @@ With this method one can get the fuller picture of a company's overall financial
 
 
 
-# Guardiant Health
-
-![Image]({{ site.baseurl }}/assets/figures/Tables/GH_dupont.png)
-
 # Vertex Pharma
 
 ![Image]({{ site.baseurl }}/assets/figures/Tables/VRTX_dupont.png)
