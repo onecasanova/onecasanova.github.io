@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dupont Analysis"
-date: 2025-01-17 -0500
+date: 2025-02-27 -0500
 permalink: dupont
 ---
 
