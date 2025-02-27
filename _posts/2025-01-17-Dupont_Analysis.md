@@ -26,6 +26,14 @@ With this method one can get the fuller picture of a company's overall financial
 
 ![Image]({{ site.baseurl }}/assets/figures/Tables/LYFT_dupont.png)
 
+# AMD
+
+![Image]({{ site.baseurl }}/assets/figures/Tables/AMD_dupont.png)
+
+# W
+
+![Image]({{ site.baseurl }}/assets/figures/Tables/W_dupont.png)
+
 # Kratos
 
 ![Image]({{ site.baseurl }}/assets/figures/Tables/KTOS_dupont.png)
