@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-# list_title: Topics  #<--- add for title to home page
+list_title: Things About Me  #<--- add for title to home page
 ---
 
 <!-- to get to page files
