@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Casanova Portfolio
+title: Angel Casanova Portfolio
 email: acasano1@jhu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Awesome analytics.
@@ -49,7 +49,7 @@ defaults:
   - scope:
       path: "_posts"
     values:
-      permalink: stock_holdings/:title
+      permalink: /:title
 
 
 # this is a folder where you can store data to be called on with variables using Liquid language
