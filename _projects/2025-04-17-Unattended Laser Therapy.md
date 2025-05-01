@@ -23,7 +23,7 @@ The goal of this project was to develop a device that allows laser therapy to be
 We initally did some benchmarking and came up with many preliminary concepts. The one chosen is shown below. We were inspired by the functionality of a CNC machine and so we thought this was the best bet to have a working prototype given the constraints of our project.
 
 <figure style="text-align: center;">
-    <img src="{{ site.baseurl }}/assets/Unattended/CNC_concept.png" alt="Image" width="650" style="display: block; margin: 0 auto;">
+    <img src="{{ site.baseurl }}/assets/Unattended/CNC_concept.png" alt="Image" width="600" style="display: block; margin: 0 auto;">
     <figcaption style="font-style: italic; color: #aaa;">Concept drawing of "CNC machine" inspired design.</figcaption>
 </figure>
 
@@ -32,18 +32,13 @@ The main idea is a grid-like motion on a 2D plane within an enclosed area above 
 
 ## Results
 
-<!-- <div style="display: flex; justify-content: center; gap: 20px;">
-    <div style="display: flex; justify-content: center; gap: 20px;">
-        <img src="{{ site.baseurl }}/assets/Unattended/IMG_3113.jpeg" alt="Image 1" width="300">
-        <img src="{{ site.baseurl }}/assets/Unattended/IMG_3111.jpeg" alt="Image 2" width="300">
-    </div>
-    <figcaption style="font-style: italic; color: #aaa; margin-top: 10px;">
-        Unattended laser therapy (prototype) device at the UD design showcase.
-    </figcaption>
-</div> -->
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="{{ site.baseurl }}/assets/Unattended/IMG_3113.jpeg" alt="Image 1" width="300">
+    <img src="{{ site.baseurl }}/assets/Unattended/IMG_3111.jpeg" alt="Image 2" width="300">
+</div>
 
 <!-- Wrap everything in a <div> to control layout, then center the caption outside the flexbox: -->
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 20px;">
     <img src="{{ site.baseurl }}/assets/Unattended/IMG_3113.jpeg" alt="Image 1" width="300">
     <img src="{{ site.baseurl }}/assets/Unattended/IMG_3111.jpeg" alt="Image 2" width="300">
@@ -51,7 +46,8 @@ The main idea is a grid-like motion on a 2D plane within an enclosed area above 
   <div style="font-style: italic; color: #aaa; margin-top: 5px;">
     Unattended laser therapy (prototype) device at the UD design showcase.
   </div>
-</div>
+</div> -->
+
 
 In the end a functioning prototype was developed that we could demo to our sponsors. The prototype was fully integrated with the already existing laser therapy device. It had an adjustable height controlled by a linear actuator with a press of a button. Since we couldn't have th eactual laser on or a patient underneath we just simulated the grid-like motion of the laser in the gripper moving at a constant speed as it would when fully functional.
 
