@@ -8,6 +8,7 @@ permalink: /about_me/
 <!-- ![Image]({{ site.baseurl }}/assets/Headshot3.jpg) -->
 <!-- <img src="{{ site.baseurl }}/assets/Headshot3.jpg" alt="Image" width="300" /> -->
 
+<!-- inputing an image-->
 <!-- with centering of image -->
 <div style="text-align: center;">
     <img src="{{ site.baseurl }}/assets/Headshot3.jpg" alt="Image" width="350">

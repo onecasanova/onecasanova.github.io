@@ -54,9 +54,9 @@ defaults:
 
 # this is a folder where you can store data to be called on with variables using Liquid language
 collections:
-  - stock_data
-  - cars
-
+  projects:
+    output: true
+    permalink: /projects/:title/
 
 
 
