@@ -57,5 +57,5 @@ In the end a functioning prototype was developed that we could demo to our spons
 
 
 ## Challenges
-My main contribution to this project was the programming and controlling of the motors, making sure they functioned how they were supposed to. It was difficult communicating with two motors, trying to have them move together based on sensor data. I even tried using an arduino library but it got too convoluted. I ended up consulting my advisor and recommended I just start from scratch and write out base functionality code and build off that, a bottom-up approach. So that's what I did and I eventually managed to get the motors to move as intended. 
+My main contribution to this project was the programming and controlling of the motors, making sure they functioned how they were supposed to. It was difficult communicating with two motors, trying to have them move together based on sensor data. I even tried using an arduino library but it got too convoluted. I ended up consulting my advisor and recommended I just start from scratch and write out base functionality code and build off that, a bottom-up approach. So that's what I did and I eventually managed to get the motors to move as intended.
 
