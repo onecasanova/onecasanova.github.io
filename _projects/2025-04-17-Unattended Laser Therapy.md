@@ -23,7 +23,7 @@ The goal of this project was to develop a device that allows laser therapy to be
 We initally did some benchmarking and came up with many preliminary concepts. The one chosen is shown below. We were inspired by the functionality of a CNC machine and so we thought this was the best bet to have a working prototype given the constraints of our project.
 
 <figure style="text-align: center;">
-    <img src="{{ site.baseurl }}/assets/Unattended/CNC_concept.jpg" alt="Image" width="600" style="display: block; margin: 0 auto;">
+    <img src="{{ site.baseurl }}/assets/Unattended/CNC_concept.jpeg" alt="Image" width="600" style="display: block; margin: 0 auto;">
     <figcaption style="font-style: italic; color: #aaa;">Concept drawing of "CNC machine" inspired design.</figcaption>
 </figure>
 
