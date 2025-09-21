@@ -15,5 +15,6 @@ permalink: /about_me/
 </div>
 
 <br>
-My name is Angel Casanova. I am currently a gradaute student at Johns Hopkins University studying mechanical engineering & robotics. I am also an economic enthusaist, I read and study it on my own time. Here I present a mini portfolio of myself hopefully ecompassing who I am as a person including my interests and hobbies. 
+My name is Angel Casanova. I am currently a gradaute student at The Johns Hopkins University studying mechanical engineering, robotics, and systems engineering. I  also like reading about economics, history, and classic literature. I do some embedded systems and IoT as a hobby. I love playing guitar and playing basketball, I find those to be my getaways to a creative space. Here I present a mini portfolio of myself hopefully ecompassing my interests and experiences. If you'd like to contact me, just email me (should be shown at the bottom of the page).
+
 
