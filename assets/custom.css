@@ -1,0 +1,90 @@
+/* Dark theme overrides */
+body {
+  background-color: #212121;
+  color: #e0e0e0;
+}
+
+a {
+  color: #6cb4ee;
+}
+a:visited {
+  color: #9b8ec8;
+}
+a:hover {
+  color: #ffffff;
+}
+
+/* Header / nav */
+.site-header {
+  background-color: #1a1a1a;
+  border-top-color: #6cb4ee;
+  border-bottom-color: #333;
+}
+.site-title, .site-title:visited {
+  color: #e0e0e0;
+}
+.site-nav .page-link {
+  color: #6cb4ee;
+}
+.site-nav .page-link:hover {
+  color: #ffffff;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #1a1a1a;
+  border-top-color: #333;
+  color: #999;
+}
+.footer-col {
+  color: #999;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #f0f0f0;
+}
+
+/* Post meta */
+.post-meta {
+  color: #999;
+}
+
+/* Blockquotes */
+blockquote {
+  color: #aaa;
+  border-left-color: #444;
+}
+
+/* Code */
+pre, code {
+  background-color: #2d2d2d;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+/* Tables */
+table {
+  color: #e0e0e0;
+}
+table th {
+  background-color: #2d2d2d;
+  border-color: #444;
+}
+table td {
+  border-color: #444;
+}
+
+/* Horizontal rules and borders */
+hr {
+  border-color: #444;
+}
+
+/* Mobile nav trigger */
+.site-nav label[for="nav-trigger"] {
+  color: #e0e0e0;
+}
+.site-nav .trigger {
+  background-color: #1a1a1a;
+  border-color: #333;
+}
