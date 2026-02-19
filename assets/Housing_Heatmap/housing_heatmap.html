@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Housing Affordability Heatmap</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #1a1a2e;
+            color: #e0e0e0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            padding: 2rem 1rem;
+        }
+        .container { max-width: 1100px; margin: 0 auto; }
+        h1 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 0.3rem;
+            color: #fff;
+        }
+        .subtitle {
+            text-align: center;
+            color: #aaa;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+        .map-container {
+            background: #1a1a2e;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+        .tables-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        @media (max-width: 700px) {
+            .tables-wrapper { grid-template-columns: 1fr; }
+        }
+        .table-section h2 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            color: #fff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        th, td {
+            padding: 0.5rem 0.7rem;
+            text-align: left;
+            border-bottom: 1px solid #2a2a3e;
+        }
+        th {
+            color: #aaa;
+            font-weight: 600;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+        .footer {
+            text-align: center;
+            color: #666;
+            font-size: 0.8rem;
+            margin-top: 1rem;
+        }
+        .footer a { color: #888; }
+        .stat {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: #aaa;
+            font-size: 0.95rem;
+        }
+        .stat strong { color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>US Housing Affordability by State</h1>
+        <p class="subtitle">Median Home Value &divide; Median Household Income &mdash; ACS 1-Year (2023)</p>
+
+        <p class="stat">
+            National median ratio: <strong>4.12x</strong> &mdash;
+            Range: <strong>2.93x</strong> to <strong>8.88x</strong>
+        </p>
+
+        <div class="map-container">
+            <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>                <div id="1ece0a17-6734-4d03-9242-83775015b88f" class="plotly-graph-div" style="height:500px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("1ece0a17-6734-4d03-9242-83775015b88f")) {                    Plotly.newPlot(                        "1ece0a17-6734-4d03-9242-83775015b88f",                        [{"coloraxis":"coloraxis","customdata":[["HI",95322,846400,8.88],["CA",95521,725800,7.6],["DC",108210,715500,6.61],["WA",94605,576000,6.09],["OR",80160,484800,6.05],["CO",92911,550300,5.92],["NV",76364,441100,5.78],["MA",99858,570800,5.72],["ID",74942,428600,5.72],["UT",93421,517700,5.54],["MT",70804,392300,5.54],["AZ",77315,411200,5.32],["FL",73311,381000,5.2],["NY",82095,420200,5.12],["RI",84972,411800,4.85],["NJ",99781,461000,4.62],["TN",67631,307300,4.54],["DE",81361,359700,4.42],["NC",70804,308600,4.36],["GA",74632,323000,4.33],["NH",96838,415400,4.29],["VA",89931,382900,4.26],["ME",73733,310700,4.21],["MD",98678,413600,4.19],["NM",62268,256300,4.12],["WY",72415,298700,4.12],["VT",81211,332000,4.09],["SC",67804,272900,4.02],["CT",91665,367800,4.01],["AK",86631,347500,4.01],["TX",75780,296900,3.92],["MN",85086,328600,3.86],["SD",71810,268200,3.73],["LA",58229,215600,3.7],["WI",74631,272500,3.65],["PA",73824,259900,3.52],["AL",62212,216600,3.48],["KY",61118,211800,3.47],["MI",69183,236100,3.41],["MO",68545,233600,3.41],["OK",62138,208600,3.36],["AR",58700,195700,3.33],["NE",74590,245200,3.29],["IL",80306,263300,3.28],["OH",67769,220200,3.25],["IN",69477,225900,3.25],["ND",76525,246700,3.22],["MS",54203,169800,3.13],["KS",70333,219800,3.13],["IA",71433,213300,2.99],["WV",55948,163700,2.93]],"geo":"geo","hovertemplate":"<b>%{hovertext}</b><br><br>Median Income=%{customdata[1]:$,.0f}<br>Median Home Value=%{customdata[2]:$,.0f}<br>Price-to-Income Ratio=%{z:.2f}<extra></extra>","hovertext":["Hawaii","California","District of Columbia","Washington","Oregon","Colorado","Nevada","Massachusetts","Idaho","Utah","Montana","Arizona","Florida","New York","Rhode Island","New Jersey","Tennessee","Delaware","North Carolina","Georgia","New Hampshire","Virginia","Maine","Maryland","New Mexico","Wyoming","Vermont","South Carolina","Connecticut","Alaska","Texas","Minnesota","South Dakota","Louisiana","Wisconsin","Pennsylvania","Alabama","Kentucky","Michigan","Missouri","Oklahoma","Arkansas","Nebraska","Illinois","Ohio","Indiana","North Dakota","Mississippi","Kansas","Iowa","West Virginia"],"locationmode":"USA-states","locations":["HI","CA","DC","WA","OR","CO","NV","MA","ID","UT","MT","AZ","FL","NY","RI","NJ","TN","DE","NC","GA","NH","VA","ME","MD","NM","WY","VT","SC","CT","AK","TX","MN","SD","LA","WI","PA","AL","KY","MI","MO","OK","AR","NE","IL","OH","IN","ND","MS","KS","IA","WV"],"name":"","z":[8.88,7.6,6.61,6.09,6.05,5.92,5.78,5.72,5.72,5.54,5.54,5.32,5.2,5.12,4.85,4.62,4.54,4.42,4.36,4.33,4.29,4.26,4.21,4.19,4.12,4.12,4.09,4.02,4.01,4.01,3.92,3.86,3.73,3.7,3.65,3.52,3.48,3.47,3.41,3.41,3.36,3.33,3.29,3.28,3.25,3.25,3.22,3.13,3.13,2.99,2.93],"type":"choropleth"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"geo":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"center":{},"scope":"usa","bgcolor":"rgba(0,0,0,0)","lakecolor":"rgba(0,0,0,0)","landcolor":"#2a2a3e","showlakes":false},"coloraxis":{"colorbar":{"title":{"text":"Ratio"},"tickformat":".1f"},"colorscale":[[0.0,"rgb(0,104,55)"],[0.1,"rgb(26,152,80)"],[0.2,"rgb(102,189,99)"],[0.3,"rgb(166,217,106)"],[0.4,"rgb(217,239,139)"],[0.5,"rgb(255,255,191)"],[0.6,"rgb(254,224,139)"],[0.7,"rgb(253,174,97)"],[0.8,"rgb(244,109,67)"],[0.9,"rgb(215,48,39)"],[1.0,"rgb(165,0,38)"]]},"legend":{"tracegroupgap":0},"margin":{"t":0,"l":0,"r":0,"b":0},"font":{"color":"#e0e0e0"},"paper_bgcolor":"#1a1a2e","plot_bgcolor":"#1a1a2e","height":500},                        {"displayModeBar": false, "responsive": true}                    )                };                            </script>        </div>
+        </div>
+
+        <div class="tables-wrapper">
+            <div class="table-section">
+                <h2>Least Affordable States</h2>
+                <table>
+                    <thead><tr><th>State</th><th>Home Value</th><th>Income</th><th>Ratio</th></tr></thead>
+                    <tbody><tr><td>Hawaii</td><td>$846,400</td><td>$95,322</td><td><strong>8.88x</strong></td></tr>
+<tr><td>California</td><td>$725,800</td><td>$95,521</td><td><strong>7.60x</strong></td></tr>
+<tr><td>District of Columbia</td><td>$715,500</td><td>$108,210</td><td><strong>6.61x</strong></td></tr>
+<tr><td>Washington</td><td>$576,000</td><td>$94,605</td><td><strong>6.09x</strong></td></tr>
+<tr><td>Oregon</td><td>$484,800</td><td>$80,160</td><td><strong>6.05x</strong></td></tr>
+</tbody>
+                </table>
+            </div>
+            <div class="table-section">
+                <h2>Most Affordable States</h2>
+                <table>
+                    <thead><tr><th>State</th><th>Home Value</th><th>Income</th><th>Ratio</th></tr></thead>
+                    <tbody><tr><td>West Virginia</td><td>$163,700</td><td>$55,948</td><td><strong>2.93x</strong></td></tr>
+<tr><td>Iowa</td><td>$213,300</td><td>$71,433</td><td><strong>2.99x</strong></td></tr>
+<tr><td>Mississippi</td><td>$169,800</td><td>$54,203</td><td><strong>3.13x</strong></td></tr>
+<tr><td>Kansas</td><td>$219,800</td><td>$70,333</td><td><strong>3.13x</strong></td></tr>
+<tr><td>North Dakota</td><td>$246,700</td><td>$76,525</td><td><strong>3.22x</strong></td></tr>
+</tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Data: U.S. Census Bureau ACS 1-Year (2023) &mdash;
+            Variables: B19013_001E (income), B25077_001E (home value)</p>
+            <p>Generated on February 18, 2026 at 11:21 PM</p>
+        </div>
+    </div>
+</body>
+</html>
