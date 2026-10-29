@@ -21,6 +21,6 @@ permalink: /about_me/
 
 
 <br>
-My name is Angel Casanova. I am currently a gradaute student at The Johns Hopkins University studying mechanical engineering, embedded systems, and systems engineering. I like to read books on economics, history, and classic literature. I love playing guitar and playing basketball, I find those to be my getaways to a creative space. Here is just a mini portfolio of myself ecompassing my interests and experiences. If you'd like to contact me, just email me (bottom of the page).
+My name is Angel Casanova. Crrently I work for Naval Surface Warfare Center on submarine sail systems as a mechanical engineer. I am a recent graduate from The Johns Hopkins University where I studied mechanical engineering, embedded systems, and systems engineering. I like to read books on economics, history, and classic literature. I love playing guitar and playing basketball, I find those to be my getaways to a creative space. Here is just a mini portfolio of myself ecompassing my interests and experiences. If you'd like to contact me, just email me (bottom of the page).
 
 
